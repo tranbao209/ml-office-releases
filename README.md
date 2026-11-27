@@ -15,6 +15,42 @@ Tài liệu và dữ liệu dạy học được lưu trên máy. Các chức n�
 
 [Xem bản phát hành mới nhất](https://github.com/tranbao209/ml-office-releases/releases/latest) · [Xem thống kê lượt tải](https://api.github.com/repos/tranbao209/ml-office-releases/releases/tags/v0.2.9)
 
+## Cài đặt và mở trên macOS
+
+### 1. Tải và kiểm tra bộ cài
+
+Tải `ML.office-0.2.9.dmg` từ link macOS ở trên. Nếu tải bằng trình duyệt, tệp thường nằm trong thư mục `Downloads`.
+
+Có thể kiểm tra tệp tải về bằng Terminal:
+
+```bash
+shasum -a 256 ~/Downloads/ML.office-0.2.9.dmg
+```
+
+Đối chiếu mã SHA-256 hiển thị với mã của `ML.office-0.2.9.dmg` trong mục [Lượt tải và kiểm tra bộ cài](#lượt-tải-và-kiểm-tra-bộ-cài) bên dưới. Nếu mã không khớp, hãy xóa tệp và tải lại từ link phát hành chính thức. Mã khớp xác nhận tệp giống bản được đăng ở đây; nó không thay thế việc Apple ký và kiểm tra ứng dụng.
+
+### 2. Cài ứng dụng
+
+1. Mở `ML.office-0.2.9.dmg` trong Finder.
+2. Trong cửa sổ đĩa vừa mở, kéo `ML office` vào `Applications` và đợi sao chép xong.
+3. Trong Finder, bấm nút eject cạnh ổ đĩa `ML office 0.2.9` ở thanh bên.
+4. Mở Finder > `Applications`, rồi mở `ML office` từ đó. Không chạy ứng dụng trực tiếp bên trong cửa sổ DMG.
+
+### 3. Cho phép mở lần đầu
+
+Ở bản 0.2.9, ứng dụng chưa được ký bằng Developer ID và notarize bởi Apple. Vì vậy macOS có thể hiện cảnh báo rằng nhà phát triển chưa được xác định. Chỉ tiếp tục nếu bạn tải DMG từ link phát hành chính thức ở trên và đã kiểm tra SHA-256.
+
+Nếu macOS chặn ứng dụng:
+
+1. Đóng cảnh báo bằng `OK` hoặc `Done`.
+2. Mở menu Apple > `System Settings` > `Privacy & Security`.
+3. Kéo xuống phần `Security`, tìm thông báo về `ML office`, rồi bấm `Open Anyway`.
+4. Đọc cảnh báo hiện lại và bấm `Open` để xác nhận. macOS có thể yêu cầu mật khẩu đăng nhập máy.
+
+Sau khi xác nhận, có thể mở `ML office` bình thường từ `Applications` ở những lần sau. Nếu không thấy `Open Anyway`, đừng tắt Gatekeeper hoặc chạy lệnh bỏ qua bảo vệ; hãy tải lại và kiểm tra checksum, hoặc chờ bản phát hành đã được ký và notarize.
+
+macOS hiển thị cảnh báo này vì chưa xác minh được danh tính/chứng thực bảo mật của ứng dụng. Việc chọn `Open Anyway` chỉ cho phép chạy ứng dụng trên máy đó; nó không biến ứng dụng thành đã được Apple xác minh.
+
 ## Có gì mới ở bản 0.2.9
 
 - **Dùng thử ML AI:** 14 ngày ML Ultra, tiếp theo 16 ngày ML +; hết 30 ngày, ứng dụng và dữ liệu trên máy vẫn sử dụng được.
