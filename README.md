@@ -6,14 +6,20 @@ ML office giúp bạn soạn văn bản, làm việc với bảng tính, chuẩn
 
 Tài liệu và dữ liệu dạy học được lưu trên máy. Các chức năng AI trực tuyến, kho cộng đồng và truy cập nguồn học liệu trên Internet cần kết nối mạng.
 
-## Tải ML office 0.2.8
+## Tải ML office 0.2.9
 
 | Hệ điều hành | Bộ cài |
 | --- | --- |
-| macOS | [Tải ML office 0.2.8 (.dmg)](https://github.com/tranbao209/ml-office-releases/releases/download/v0.2.8/ML.office-0.2.8.dmg) |
-| Windows | [Tải ML office 0.2.8 (.exe)](https://github.com/tranbao209/ml-office-releases/releases/download/v0.2.8/ML-Office-Setup-0.2.8.exe) |
+| macOS | [Tải ML office 0.2.9 (.dmg)](https://github.com/tranbao209/ml-office-releases/releases/download/v0.2.9/ML.office-0.2.9.dmg) |
+| Windows | [Tải ML office 0.2.9 (.exe)](https://github.com/tranbao209/ml-office-releases/releases/download/v0.2.9/ML-Office-Setup-0.2.9.exe) |
 
-[Xem bản phát hành mới nhất](https://github.com/tranbao209/ml-office-releases/releases/latest) · [Xem thống kê lượt tải](https://api.github.com/repos/tranbao209/ml-office-releases/releases/tags/v0.2.8)
+[Xem bản phát hành mới nhất](https://github.com/tranbao209/ml-office-releases/releases/latest) · [Xem thống kê lượt tải](https://api.github.com/repos/tranbao209/ml-office-releases/releases/tags/v0.2.9)
+
+## Có gì mới ở bản 0.2.9
+
+- **Dùng thử ML AI:** 14 ngày ML Ultra, tiếp theo 16 ngày ML +; hết 30 ngày, ứng dụng và dữ liệu trên máy vẫn sử dụng được.
+- **Ngân hàng đề:** bộ lọc môn học trong kho đề cộng đồng hiển thị các môn có sẵn và giữ môn đã chọn kể cả khi kết quả rỗng.
+- **Bản quyền AI:** kiểm tra gói trước khi gửi yêu cầu tới dịch vụ; chế độ ML Ultra chỉ dùng được trong thời gian Ultra hoặc với gói Ultra đã kích hoạt.
 
 ## Công cụ văn phòng và tài liệu
 
@@ -45,7 +51,7 @@ ML AI sử dụng dịch vụ trực tuyến và yêu cầu gói **ML +** hoặc
 | PDF và ảnh scan | Trích chữ hoặc OCR trước khi chuyển nội dung cho AI; hỗ trợ tiếng Việt và tiếng Anh. |
 | Tài liệu dài, nhiều chương hoặc dung lượng lớn | Chia thành các phần nhỏ để xử lý lần lượt, sau đó yêu cầu tổng hợp các ý đã xử lý. |
 
-**Giới hạn của bản 0.2.8:** tệp đính kèm tối đa **100 MiB**; PDF/OCR tối đa **200 trang** mỗi lượt xử lý; mỗi lượt AI nhận tối đa **24.000 ký tự văn bản trích xuất**. Đây là các giới hạn khác nhau: một PDF nhập được vẫn có thể quá dài để gửi toàn bộ cho AI trong một lượt. Ứng dụng chưa tự chia tài liệu dài trong luồng đính kèm này.
+**Giới hạn của bản 0.2.9:** tệp đính kèm tối đa **100 MiB**; PDF/OCR tối đa **200 trang** mỗi lượt xử lý; mỗi lượt AI nhận tối đa **24.000 ký tự văn bản trích xuất**. Đây là các giới hạn khác nhau: một PDF nhập được vẫn có thể quá dài để gửi toàn bộ cho AI trong một lượt. Ứng dụng chưa tự chia tài liệu dài trong luồng đính kèm này.
 
 Khả năng đọc Office chủ yếu dựa trên nội dung văn bản trích xuất, không bảo đảm hiểu đầy đủ mọi hình, biểu đồ hay bố cục. Bản scan mờ, chữ viết tay, ký hiệu và công thức cần được đối chiếu lại. Thời gian xử lý phụ thuộc cấu hình máy, độ phức tạp của tài liệu và dịch vụ AI.
 
@@ -62,13 +68,13 @@ Khả năng đọc Office chủ yếu dựa trên nội dung văn bản trích x
 
 ## Lượt tải và kiểm tra bộ cài
 
-Mở [thống kê GitHub của bản 0.2.8](https://api.github.com/repos/tranbao209/ml-office-releases/releases/tags/v0.2.8), tìm tên tệp trong mục `assets` và xem trường `download_count`. Đây là số lượt tải theo tệp, không phải số người dùng duy nhất hay danh sách người tải.
+Mở [thống kê GitHub của bản 0.2.9](https://api.github.com/repos/tranbao209/ml-office-releases/releases/tags/v0.2.9), tìm tên tệp trong mục `assets` và xem trường `download_count`. Đây là số lượt tải theo tệp, không phải số người dùng duy nhất hay danh sách người tải.
 
 SHA-256 để đối chiếu bộ cài:
 
 ```text
-76cbc9a16ac96afd48c4bf7fed445f34eec264529a259a45381f124219f7a632  ML.office-0.2.8.dmg
-43a9da3a3fa73b812299959b42cbc68126e1e1d662647aeeba0219cbec660585  ML-Office-Setup-0.2.8.exe
+3614dd90ef453b6140a231d23cb64af718f77a5638c382319ddcac5946e47d30  ML.office-0.2.9.dmg
+c2549a523c8b9a9bd522e24148fd7a533586bbd07988efab87f40524c5c6f6e0  ML-Office-Setup-0.2.9.exe
 ```
 
 Kho GitHub này dùng để giới thiệu sản phẩm và phân phối bộ cài ML office.
