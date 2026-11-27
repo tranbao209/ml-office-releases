@@ -117,7 +117,6 @@ c0641594e8e8e2bca07c48b032f48634cf78f48870a4c3f9b8a3dd331a1863cf  ML-Office-0.3.
 db074070eb8f41e0e3ee214c8bf339507d7223c4c6550fb64f8dee0646bd0d51  ML-Office-0.3.2-mac-Intel.dmg
 829f8522f9c2ae61f6275a70e5fea8d4447e4d2f095585546e996fafedd7baef  ML-Office-0.3.2-mac-Intel.zip
 b09b1860232e20d3a2ed65cf06984a9b66a83d0b884cd9ed896a8529bd5a7b44  ML-Office-Setup-0.3.2-win-x64.exe
-fc43d40865533864ca60b25b4089a2929bad396f885fa0a5b9c00482ad9edf56  ML-Office-Setup-0.3.2-win-x64.exe.blockmap
 ```
 
 ## Kiểm chứng và giới hạn phát hành
